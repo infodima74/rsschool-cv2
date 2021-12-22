@@ -1,0 +1,261 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  
+  
+}
+
+.header__avatar {
+    border: none;
+  
+    border-radius: 15px;
+    
+ 
+}
+
+a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+}
+
+ul, ul li {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#header__wrapper {
+    width: 1000px;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+header, main {
+    padding: 20px px;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+article {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.main-styles {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main-styles h2, .main-styles h3 {
+    color:rgb(218, 216, 216);
+}
+
+.main-styles p {
+    color: #6d6766;
+    border-bottom: 1px solid #dbebfa;
+    min-width: 47%;
+}
+
+/*   HEADER  */
+
+#header {
+    background-color: white;
+    display: flex;
+    border: solid 1px rgb(218, 216, 216);
+    border-radius: 15px;
+}
+  
+
+
+.header__avatar {
+    margin-right: 20px;
+}
+
+.header__info {
+    margin: 0 auto;
+    min-width: 50%;
+}
+
+.header__avatar img {
+    border-radius: 300px;
+}
+
+.header__info h1 {
+    margin: 0 0 5px 0;
+    text-align: center;
+    font-size: 36px;
+    color:  black;
+   
+}
+
+.header__info h2 {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.header__info-position {
+    background-color:rgb(218, 216, 216);;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*SKILLS*/
+
+.info-skills__container {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.info-skills_styles li {
+    padding: 3px 10px 3px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    transition: all 0.3s ease;
+}
+
+.info-skills__container li:nth-child(2n) {
+    background-color:rgb(218, 216, 216);
+}
+
+.info-skills__container li:nth-child(2n - 1) {
+    background-color: rgb(218, 216, 216);
+}
+
+.info-skills__container li:hover {
+    background-color: rgb(218, 216, 216);
+    text-shadow: 0 0 15px white;
+    box-shadow: 0 0 15px white;
+}
+
+/*ABOUT*/
+.about{
+    border: solid 1px rgb(218, 216, 216);
+    border-radius: 15px;
+}
+.heading_about {
+    color: transparent;
+    margin: 0;
+    padding: 0;
+}
+.about_linc{
+    font-size: 20px;
+    color:black;
+    text-transform: uppercase;
+}
+
+.about__content {
+    line-height: 30px;
+}
+
+.about__links a {
+    color: rgb(218, 216, 216);;
+    font-style: italic;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.about__links a:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px white;
+    color: rgb(255, 0, 0);
+}
+
+
+
+/*CONTACTS*/
+
+#contacts {
+    
+    
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contacts__links {
+    display: flex;
+}
+
+.contacts__info {
+    margin-left: 20px;
+}
+
+.contacts__info a:hover {
+    text-shadow: 0 0 15px white;
+}
+
+.contacts-align {
+   
+    bottom: 20px;
+}
+
+
+.contact__linc{
+    
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/*FOOTER*/
+
+footer {
+    
+    
+    background-color: rgb(218, 216, 216);
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+
+.footer__info-continer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+footer a {
+    line-height: 80px;
+    font-size: 28px;
+    text-shadow: 0 0 15px black;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: #337ab7;;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.footer__rs-link{
+    padding-right: 100px;
+}
+.rss-icon{
+padding-left: 20px ;
+align-items:center;
+height:60px ;
+width:60px;
+position: absolute;
+top:8px}
