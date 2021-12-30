@@ -33,7 +33,21 @@ ul, ul li {
     margin: 0;
     padding: 0;
 }
-
+.nav{   
+     background-color: rgb(218, 216, 216);
+    border-radius: 15px;
+    padding: 20px;
+        margin-top: 20px;
+    margin-bottom: 20px;}
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 22px;
+}
 #header__wrapper {
     width: 1000px;
     padding: 20px 0px;
@@ -259,3 +273,52 @@ height:60px ;
 width:60px;
 position: absolute;
 top:8px}
+
+.code{
+    background-color: rgb(218, 216, 216);
+
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#navigations{
+    line-height: 80px;
+    font-size: 28px;
+    text-shadow: 0 0 15px black;
+    font-weight: 700;
+    color: rgb(226, 226, 226);
+}
+#Projects{
+    border: solid 1px rgb(218, 216, 216);
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Experience_link{
+  
+    font-size: 18px;
+    color: #6d6766;
+}
+.Experience_styles h3{
+    color: #6d6766;
+}
+.Experience_styles h2{
+     color: rgb(218, 216, 216);}
+.Experience_link:hover {
+        color: rgb(70, 55, 153);
+        text-shadow: 0 0 15px rgb(78, 61, 235);
+        box-shadow: 0 0 15px white;
+    }
+    .English{
+        background-color: rgb(218, 216, 216);
+
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
