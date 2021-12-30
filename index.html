@@ -10,14 +10,24 @@
 </head>
 
 <body>
-  <div id="header__wrapper">
-      <header id="header">
-          
+<div id="header__wrapper">
+    <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a id="navigations" href="#about__info">About me</a></li>
+          <li class="nav__item"><a id="navigations" href="#skills">Skills</a></li>
+
+          <li class="nav__item"><a id="navigations" href="#code">Code</a></li>
+          <li class="nav__item"><a id="navigations" href="#projects">Projects</a></li>
+          <li class="nav__item"><a id="navigations"  href="#main">Contact</a></li>
+          <li class="nav__item"><a id="navigations" href="#English">Education</a></li>
+        </ul>
+      </nav>
+    <header id="header">
           <div class="header__info">
               <h1><a href="#"><img class="lofo_img"  >Dmitry </a></h1>
               <h1>Perevalov </h1>
               <div class="header__info-position">JUNIOR FRONTEND DEVELOPER</div>
-              <div class="header__info-skills">
+              <div class="header__info-skills" id="skills">
                   <h2>Skills</h2>
                   <div class="info-skills__container">
                       <div class="info-skills__content info-skills_styles">
@@ -44,8 +54,8 @@
           </div>
           <div class="header__avatar">
             <img src= "./images/foto.png" height="300px " width="300px" alt="foto" >
-        </div>
-      </header>
+          </div>
+    </header>
       <main id="main">
           <article id="contacts">
               <h2>CONTACTS</h2>
@@ -54,7 +64,6 @@
                   +375(44)531-9731
               </div>
               <div class="contacts__email ">
-                   
                   infodima74@gmail.com
               </div>
               
@@ -62,8 +71,8 @@
                 <a class="contact__linc" href="https://github.com/infodima74">Github</a>
               </div>
           </article>
-          
-<section class="about">
+          </main>
+    <section class="about">
                  <article id="about__info" class="main-styles">
                           <h2>ABOUT ME</h2>
                           <div class="about_container">
@@ -77,24 +86,66 @@
                             </p>
                            </div>
                 </article>
-              
-          </section>
+    </section>
+    <section class="code" id="code">
+        <div class="code_container">
+            <h2>CODE EXAMPLES</h2>
+            <p class="code_examples">
+                var green_bootan = document.getElementById("green_bootan")<br>
+                var rootElement = document.documentElement<br>
+                function scrollToTop() {<br>
+                // Scroll to top logic<br>
+                rootElement.scrollTo({<br>
+                top: 0,<br>
+                behavior: "smooth"<br>
+                 })<br>
+                }<br>
+                green_bootan.addEventListener("click", scrollToTop)<br> 
+            </p>
 
-      </main>
+        </div>
 
-      <footer id="footer">
-          <div class="footer__info-continer">
-              <div class="footer__github-link">
-                  <a href="https://github.com/infodima74">Dmitry Perevalov</a>
-              </div>
-              <div class="footer__rs-link">
-                  <span><a href="https://rs.school/">RS School</a></span>
-                  <span class="rss-icon"><a href="https://rs.school/"><img  src="images/rs_school_js.svg" alt="rss" height="60px" width="60px" ></a></span>
-              </div>
-          </div>
-      </footer>
+    </section>
+    <section class="Experience" id="Projects">
+        <div class="Experience_styles">
+          <H2>My Experience</H2>
+          <h3>My beginnings. layout of several layouts:</h3>
+          <ul>
+            <li><a class="Experience_link" href="https://github.com/infodima74/uber">Uber</a></li>
+            <li><a class="Experience_link" href="https://github.com/infodima74/layout-layout">layout</a></li>
+            <li><a class="Experience_link"href="https://github.com/infodima74/wildlife">Wildlife</a></li>
+        </ul>
+          
+        </div>
+    </section>
+    <section class="English" id="English" >
+        <div>
+            <h2>My English</h2>
+            <p>I study English in parallel with the layout.
 
-  </div>
+            </p>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer__info-continer">
+            <div class="footer__github-link">
+                <a href="https://github.com/infodima74">Dmitry Perevalov</a>
+            </div>
+            <div><a>2022</a></div>
+            <div class="footer__rs-link">
+                <span>
+                    <a href="https://rs.school/">RS School</a>
+                </span>
+                <span class="rss-icon">
+                    <a href="https://rs.school/">
+                      <img  src="images/rs_school_js.svg" alt="rss" height="60px" width="60px" >
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+</div>
 </body>
 
 
