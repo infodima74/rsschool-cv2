@@ -161,7 +161,7 @@ article {
 }
 
 /*ABOUT*/
-.about{
+#about__info{
     border: solid 1px rgb(218, 216, 216);
     border-radius: 15px;
 }
@@ -283,7 +283,7 @@ top:8px}
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#navigations{
+.nav__item a{
     line-height: 80px;
     font-size: 28px;
     text-shadow: 0 0 15px black;
@@ -322,3 +322,10 @@ top:8px}
     margin-top: 20px;
     margin-bottom: 20px;
     }
+    .my-image{
+        height:300px; 
+         width:300px;}
+
+.rs-logo{
+    height:60px;
+     width:60px;}
